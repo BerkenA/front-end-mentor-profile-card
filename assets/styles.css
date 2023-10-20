@@ -1,4 +1,39 @@
-h1 {
-    background-color: black;
-    color: gold;
+* {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    background-color: #19A1AE;
+    width: 375px;
+    height: 667px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-secondary {
+    width: 326px;
+    height: 374px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-top {
+    background-color:#0989B4;
+    height: 140px;
+}
+
+.card-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
