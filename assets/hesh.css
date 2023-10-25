@@ -1,0 +1,26 @@
+:root {
+    --primary: #19A1AE;
+    --secondary: #41CBD3;
+    --tertiary: #6B7082;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--primary);
+}
+
+.card {
+    width: 326px;
+    height: 374px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 50px 100px -20px #08465E80;
+}
